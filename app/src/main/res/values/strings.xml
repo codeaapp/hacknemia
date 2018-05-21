@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Hacknemia</string>
+    <string-array name="tipos">
+        <item>Prematuro</item>
+        <item>A término</item>
+        <item>Mayor a 6 meses</item>
+    </string-array>
+</resources>

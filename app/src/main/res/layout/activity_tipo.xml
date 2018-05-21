@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.peru.hacknemia.TipoActivity">
+    <TextView
+        android:text="ELIJA UNA OPCIÓN"
+        android:layout_margin="15dp"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnPrematuro"
+        android:text="PREMATURO"
+        android:layout_weight="1"
+        android:textSize="30dp"
+        android:textColor="@color/md_white_1000"
+        android:background="@drawable/ic_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnTermino"
+        android:text="A TÉRMINO"
+        android:layout_weight="1"
+        android:textSize="30dp"
+        android:textColor="@color/md_white_1000"
+        android:background="@drawable/ic_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnMayor"
+        android:text="MAYOR A 6 MESES"
+        android:textColor="@color/md_white_1000"
+        android:layout_weight="1"
+        android:textSize="30dp"
+        android:background="@drawable/ic_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
